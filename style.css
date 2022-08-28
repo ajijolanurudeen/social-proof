@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 50px;
+    font-family: 'League Spartan';
+}
+.container{
+    width: 70%;
+    margin: auto;
+    height: 100vh;
+
+}
+.first-half{
+    display: flex;
+  
+}
+.description{
+    width: 50%; 
+     padding: 25px;
+    
+}
+h1{
+    width:60%;
+     color: hsl(300, 43%, 22%);
+     padding: 10px;
+     
+     text-align: left;
+}
+.gray-p{
+    width:80%;
+    color:  hsl(303, 10%, 53%);
+    padding: 10px;
+    font-size: 15px;
+}
+
+.ratings{
+    padding: 30px;
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+    font-size: 15px;
+    font-weight: 700;
+    width: 50%;
+    margin-top: 30px;
+}
+.p-reviews{
+    padding-left: 10px;
+    font-size: 12px;
+}
+.reviews-rating{
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    padding: 13px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 80%;
+
+}
+
+.bestech-rating{
+    width: 80%;
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    padding: 13px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.guru-rating{
+    width: 80%;
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    padding: 13px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+.second-half{
+    display:grid;
+    grid-template-columns: repeat(3, 250px);
+    justify-content:space-evenly;
+}
+.colton-card{
+    background-color: hsl(300, 43%, 22%) ;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    margin-right: 10px;
+   
+
+}
+.irene-card{
+    background-color: hsl(300, 43%, 22%) ;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right:10px; 
+    position: relative;
+    top: 10px;
+
+}
+.anne-card{
+    background-color: hsl(300, 43%, 22%) ;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right:10px;
+    position: relative;
+    top: 20px;
+
+}
+.head{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+}
+img{
+    border-radius: 50px;
+    height: 30px;
+}
+.about{
+    padding-left: 10px;
+}
+.name{
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+.title{
+    color: hsl(333, 80%, 67%);
+    font-size: 14px;
+}
+.comment{
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
